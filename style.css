@@ -1,1 +1,53 @@
-@@import "reset.css";
+@import url('reset.css');
+
+html{
+  font-size: 62.5%;
+  font-family: 'Playfair Display', serif;
+  color: #48504e;
+}
+body{
+  background-color: #ffc107;
+}
+
+.orange{
+    color: #ffc107;
+}
+.gray{
+  color: #48504e;
+}
+.lightgray{
+  color: #d4d4d3;
+}
+
+h1{
+  font-size: 3.7rem;
+}
+
+h2{
+  font-size: 2.7rem;
+  color: #fff;
+}
+h3{
+  font-size: 3.1rem;
+  color: #fff;
+}
+p{
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+ul{
+  font-size: 2.3rem;
+  line-height: 1.75;
+}
+
+footer p{
+  font-size: 1.4rem;
+}
+
+.summary{
+  font-size: 2.4rem;
+}
+
+header{
+  display: none;
+}
